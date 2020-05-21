@@ -1,0 +1,8 @@
+com\microservices\elit\model\Demande.class
+com\microservices\elit\repo\DemandeRepo.class
+com\microservices\elit\StockApplication.class
+com\microservices\elit\messaging\RabbitDemandeMessagingService.class
+com\microservices\elit\model\DemandeCRUD.class
+com\microservices\elit\messaging\DemandeListener.class
+com\microservices\elit\controller\DemandeController.class
+com\microservices\elit\model\HTTPTYPE.class

@@ -120,6 +120,14 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-config</artifactId>
 		</dependency>
+		<dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-kubernetes</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-kubernetes-ribbon</artifactId>
+        </dependency>
 		
 	</dependencies>
 
@@ -135,6 +143,14 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+            <plugin>
+	            <artifactId>maven-compiler-plugin</artifactId>
+
+	            <configuration>
+	                <fork>true</fork>
+	                <executable>C:\Program Files\Java\jdk1.8.0_251\bin\javac.exe</executable>
+	            </configuration>
+	        </plugin>
 		</plugins>
 	</build>
 
